@@ -1,0 +1,93 @@
+<html>
+  <head>
+  	<title>Express HTML</title>
+    <script src="/Source.js" type= "text/javascript" >
+    </script>''
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+  	</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">
+  	</script>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <link rel = "stylesheet"
+    href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  	
+  </head>
+  <style> 
+    
+  .center4 {
+  	  padding: 30px;
+  	  text-align: center;
+  }
+
+
+  .mathematics {
+    font : 40px Comic Sans MS,sans-serif;
+  	color : #92a8d1;
+  }
+  
+  .logic{
+  	font :  Comic Sans MS,sans-serif;
+  }
+
+  </style>
+  <body>
+    <div class="container mathematics">
+      <div class="container center4">
+        <div class = "row col-sm-12">
+        <h2 class= "mathematics"><b>MATHEMATICS<b></h3>
+      </div>     
+       	</div>
+	</div>
+
+	<div class="container">
+		<div class = "row col-sm-6">
+		   <h4 class="logic"><b>Sum  of two Numbers = </b></h4>
+           <input type="text" id = "txt_number1"/> +
+           <input type="text" id = "txt_number2"/> =
+           <input type="text" id = "txt_number3"/>
+           </br>
+           </br>
+           <button onclick="GetSum()">Get sum</button>
+           <label id = "lbl_get_sum_in_msg">Added</label>
+    </div>   
+    
+    <div class="container">
+		<div class = "row col-sm-6">
+		   <h4 class="logic"><b>Division of two numbers = </b></h4>
+           <input type="text" id = "txt_number4"/> /
+           <input type="text" id = "txt_number5"/> =
+           <input type="text" id = "txt_number6"/>
+           </br>
+           </br>
+           <button onclick="Dividede()">Divide</button>
+           <label id = "lbl_get_div_in_msg">Divided</label>
+    </div> 
+
+    <div class="container">
+		<div class = "row col-sm-6">
+		   <h4 class="logic"><b>Multiplication of two numbers = </b></h4>
+           <input type="text" id = "txt_number4"/> *
+           <input type="text" id = "txt_number5"/> =
+           <input type="text" id = "txt_number6"/>
+           </br>
+           </br>
+           <button onclick="Multiply()">Multiply</button>
+           <label id = "lbl_get_div_in_msg">multiplyed</label>
+    </div> 
+
+    <div class="container">
+		<div class = "row col-sm-6">
+		   <h4 class="logic"><b>Subtraction of two numbers = </b></h4>
+           <input type="text" id = "txt_number4"/> -
+           <input type="text" id = "txt_number5"/> =
+           <input type="text" id = "txt_number6"/>
+           </br>
+           </br>
+           <button onclick="Subtraction()">subtract</button>
+           <label id = "lbl_get_div_in_msg">subtracted</label>
+    </div> 
+
+
+  </body>
+</html>
